@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+}
+.form-wrapper {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #eceeef;
+}
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0d4ea;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.firstname {
+  margin-left: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.password {
+  margin-left: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+label {
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+  font-size: 0.8em;
+}
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+input::placeholder {
+  font-size: 1.2 em;
+  font-weight: lighter;
+  color: #999;
+}
+.submit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submit button {
+  background-color: #0b6fdd;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1 em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+.submit button:hover {
+  color: #505354;
+  background-color: #fff;
+  border: 2px solid #287edc;
+}
